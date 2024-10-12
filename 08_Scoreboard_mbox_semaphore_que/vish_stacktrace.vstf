@@ -1,0 +1,50 @@
+# Current time Sun Sep 22 07:22:00 2024
+# Program = vish
+# Id = "2021.1"
+# Version = "2021.01"
+# Date = "Jan 19 2021"
+# Platform = win64
+
+Exception c0000005 has occurred at address 62be563b. Traceback:
+# 0    0x62be563b: 'TkWinGetDrawableDC + 0x2b'
+# 1    0x62be6acd: 'XCopyArea + 0x7d'
+# 2    0x401de5df: 'Mtirpc_Init + 0x56bef'
+# 3    0x4025d1af: 'Mtirpc_Init + 0xd57bf'
+# 4    0x4025ceed: 'Mtirpc_Init + 0xd54fd'
+# 5    0x62b3217c: 'TclServiceIdle + 0x6c'
+# 6    0x62afa9f3: 'Tcl_DoOneEvent + 0x193'
+# 7    0x62ab49ee: 'TclInThreadExit + 0x11e'
+# 8    0x62a47103: 'TclNRRunCallbacks + 0x63'
+# 9    0x62a48974: 'Tcl_EvalEx + 0xa34'
+# 10   0x62a491a8: 'Tcl_Eval + 0x38'
+# 11   0x62a4a4f0: 'Tcl_GlobalEval + 0x30'
+# 12   0x4012abe5: '<unknown (@0x4012abe5)>'
+# 13   0x4012b3d5: '<unknown (@0x4012b3d5)>'
+# 14   0x4012c035: '<unknown (@0x4012c035)>'
+# 15   0x401298e5: '<unknown (@0x401298e5)>'
+# 16   0x62a45226: 'TclInvokeStringCommand + 0xc6'
+# 17   0x62a47103: 'TclNRRunCallbacks + 0x63'
+# 18   0x62a47103: 'TclNRRunCallbacks + 0x63'
+# 19   0x63df0d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 20   0x63df1f5b: 'Itcl_ExecMethod + 0x23b'
+# 21   0x63df9a19: 'Itcl_EvalArgs + 0x1c9'
+# 22   0x63df4cf1: 'Itcl_HandleInstance + 0x2c1'
+# 23   0x62a47103: 'TclNRRunCallbacks + 0x63'
+# 24   0x62a48974: 'Tcl_EvalEx + 0xa34'
+# 25   0x62a47f68: 'Tcl_EvalEx + 0x28'
+# 26   0x62c1431a: 'Tk_BindEvent + 0x91a'
+# 27   0x62c4bd41: 'TkBindEventProc + 0x291'
+# 28   0x62c5c614: 'Tk_HandleEvent + 0x2f4'
+# 29   0x62c5b2da: 'TkDeleteThreadExitHandler + 0x31a'
+# 30   0x62afa56d: 'Tcl_ServiceEvent + 0xed'
+# 31   0x62afa9e4: 'Tcl_DoOneEvent + 0x184'
+# 32   0x62c5aee5: 'Tk_MainLoop + 0x25'
+# 33   0x62c9d282: 'Tk_MainEx + 0x932'
+# 34   0x401ab032: 'Mtirpc_Init + 0x23642'
+# 35   0x401adc14: 'Mtirpc_Init + 0x26224'
+# 36   0x40771eb0: 'Tclsqlite3_Init + 0x1c000'
+# 37   0x6a377374: 'BaseThreadInitThunk + 0x14'
+# 38   0x6a7fcc91: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
